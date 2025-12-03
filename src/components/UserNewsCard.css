@@ -1,0 +1,90 @@
+@import './components.css';
+
+/* UserNewsCard style */
+.user-news-card {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  grid-template-rows: auto auto;
+
+  gap: 10px 20px; 
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+  margin-bottom: 15px;
+}
+
+.all-news {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 15px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.user-news-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.user-news-thumbnail {
+  grid-column: 1 / 2;
+  grid-row: 1/ 2;
+
+  width: 150px;
+  height: 100px;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.user-news-content {
+  padding: 0 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-news-title {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  
+  height: 70px;
+  margin-left: 5px;
+  font-size: 5px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.user-news-summary {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  /* flex-grow: 1; */
+
+  font-size: 15px;
+  color: #555;
+  line-height: 1.4;
+  margin-top: 5px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* 최대 3줄 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-news-date {
+  font-size: 12px;
+  color: #888;
+  text-align: left;
+}

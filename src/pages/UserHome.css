@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.user-home {
+  padding: 20px;
+}
+
+.cat-section {
+  margin-bottom: 50px;
+}
+
+.cat-title {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column; /* 세로 정렬 */
+  gap: 15px;
+}
+
+.no-news {
+  color: #888;
+  font-style: italic;
+}
+
+.loading {
+  padding: 50px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.user-header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 10px;
+  background-color: #3b82f6;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.header-logo {
+  width: 150px;
+  height: 80px;
+  margin: 10px;
+}
+
+.home-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  padding: 8px 16px;
+  background-color: #8d919a;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.user-header button.logout {
+  background-color: #3b82f6;
+  color: white;
+}
+.user-header button.mypage {
+  background-color: #3b82f6;
+  color: white;
+}
+
+
+.user-home-container {
+  position: relative;
+  padding: 20px;
+  padding-top: 60px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+
+.home-button:hover {
+  background-color: #e5e7eb;
+}
