@@ -6,6 +6,7 @@ export interface News {
   summary: string;
   keywords: string;
   category: string;
-  publishedAt: string;
+  publishedAt: string | number[];
   createdAt: string;
+  sentiment?: "긍정" | "중립" | "부정";
 }

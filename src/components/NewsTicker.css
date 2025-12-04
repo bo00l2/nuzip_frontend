@@ -1,0 +1,67 @@
+/* 한 줄 ticker 영역 */
+.ticker-viewport {
+  height: 30px;
+  overflow: hidden;
+  flex: 1;
+}
+
+
+/* 개별 티커 아이템 */
+.ticker-item {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #222;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ▼ 버튼 */
+.ticker-btn {
+  width: 40px;
+  height: 40px;
+  margin-left: 4px;
+  border: none;
+  border-radius: 8px;
+  color: #343434;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease;
+}
+
+.ticker-toggle-btn:hover {
+  background: #e2e2e2;
+}
+
+/* 펼쳐진 전체 리스트 영역 */
+.ticker-expanded-list {
+  max-height: 200px;
+  overflow-y: auto;
+  background: #fafafa;
+  border-top: 1px solid #ddd;
+}
+
+/* 펼쳐진 리스트 개별 항목 */
+.ticker-expanded-item {
+  display: block;
+  padding: 8px 12px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ticker-expanded-item:hover {
+  background: #f0f0f0;
+}

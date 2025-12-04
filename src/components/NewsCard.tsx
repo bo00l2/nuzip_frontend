@@ -192,7 +192,7 @@ export default function NewsCard({ item }: Props) {
         {keywords.length > 0 && (
           <div
             className="news-keywords"
-            style={{ marginBottom: "5px", textAlign: "left", fontSize: "14px" }}
+            style={{ marginBottom: "5px", textAlign: "left" }}
           >
             {keywords.map((k, idx) => (
               <span key={idx} className="keyword">

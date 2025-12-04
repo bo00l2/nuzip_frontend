@@ -9,7 +9,7 @@ const categories = [
   "ITㆍ과학",
   "세계",
   "엔터",
-  "스포츠"
+  "스포츠",
 ];
 
 interface Props {

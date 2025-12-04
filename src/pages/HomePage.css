@@ -69,3 +69,31 @@
   color: #666;
   margin-top: 40px;
 }
+
+/* 페이지네이션 style */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.pagination button {
+  border: 1px solid #d0d0d0;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 3px 8px;
+  border-radius: 6px;
+  transition: 0.2s ease-in-out;
+}
+
+.page-number {
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 6px;
+}

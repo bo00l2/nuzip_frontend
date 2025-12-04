@@ -6,6 +6,7 @@
   grid-template-columns: 140px 1fr;
   grid-template-rows: auto auto;
 
+  margin-top: 7px;
   gap: 10px 20px; 
   width: 100%;
   padding: 5px;
@@ -88,3 +89,54 @@
   color: #888;
   text-align: left;
 }
+
+.keyword {
+  font-size: 0.8rem;
+  color: #1a73e8;
+  background-color: #e8f0fe;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.news-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.sentiment.positive {
+  border-color: #10b981;
+  background: #ecfdf5; /* 연한 초록 */
+  color: #047857;
+  padding: 7px;
+  margin-left: 50px;
+}
+
+.sentiment.negative {
+  border-color: #ef4444;
+  background: #fef2f2; /* 연한 빨강 */
+  color: #b91c1c;
+  padding: 7px;
+  margin-left: 50px;
+}
+
+.sentiment.neutral {
+  border-color: #9ca3af;
+  background: #f3f4f6; /* 연한 회색 */
+  color: #4b5563;
+  padding: 7px;
+  /* margin-left: 50px; */
+}
+
+.sentiment {
+  margin-left: auto;  /* 감정 span을 오른쪽 끝으로 밀어냄 */
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  font-size: 13px;
+}
+
