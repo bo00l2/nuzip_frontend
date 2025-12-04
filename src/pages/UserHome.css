@@ -66,13 +66,11 @@
   transition: 0.2s ease-in-out;
 }
 
-.user-header button.logout {
-  background-color: #3b82f6;
-  color: white;
-}
+.user-header button.logout,
 .user-header button.mypage {
   background-color: #3b82f6;
   color: white;
+  margin-right: 20px;
 }
 
 

@@ -2,7 +2,7 @@
 .home-container {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   width: 100%;
   padding-left: 24px;
   padding-right: 16px;
@@ -43,16 +43,12 @@
   transition: 0.2s;
 }
 
-.home-header button.login {
+.home-header button.login,
+.home-header button.signup {
   background-color: #3b82f6;
   color: white;
+  margin-right: 20px;
 }
-
-.home-header button.signup {
-  background-color: #3b82f6; 
-  color: white;
-}
-
 
 /* 카테고리 중앙 배치 */
 .category-wrapper {
@@ -61,7 +57,6 @@
   justify-content: center;
   margin-top: 80px;
 }
-
 
 /* 검색 결과 없을 때 */
 .no-results {

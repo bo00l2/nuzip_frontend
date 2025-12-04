@@ -160,12 +160,15 @@ export default function HomePage({ allNews }: Props) {
           onChange={setKeyword}
           onSearch={handleSearch}
         />
+        <div className="header-buttons">
+
         <button className="login" onClick={() => navigate("/login")}>
           로그인
         </button>
         <button className="signup" onClick={() => navigate("/signup")}>
           회원가입
         </button>
+        </div>
       </div>
 
       {/* 카테고리 탭 */}
